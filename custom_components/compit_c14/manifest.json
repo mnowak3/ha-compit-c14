@@ -1,0 +1,10 @@
+{
+  "domain": "compit_c14",
+  "name": "Compit C14 (rekuperator Aero 4A)",
+  "version": "0.2.0",
+  "documentation": "https://github.com/d-lebed/esphome-awenta-auros",
+  "codeowners": [],
+  "requirements": [],
+  "iot_class": "local_push",
+  "config_flow": true
+}

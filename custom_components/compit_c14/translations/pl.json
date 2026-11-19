@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Rekuperator Compit AERO 4A (C14)",
+        "description": "Adres konwertera RS485–WiFi (USR-DR164) w trybie TCP Server.",
+        "data": {
+          "host": "Adres IP konwertera",
+          "port": "Port TCP"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Nie można połączyć się z konwerterem."
+    },
+    "abort": {
+      "already_configured": "Rekuperator jest już dodany."
+    }
+  }
+}
