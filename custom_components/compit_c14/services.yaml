@@ -1,0 +1,17 @@
+wietrzenie:
+  name: Wietrzenie na czas
+  fields:
+    minuty:
+      name: Minuty (0 = wyłącz)
+      example: 15
+      selector:
+        number: {min: 0, max: 720}
+zapisz_rejestr:
+  name: Zapis rejestru C14
+  fields:
+    rejestr: {name: Rejestr, selector: {number: {min: 0, max: 400}}}
+    wartosc: {name: Wartość, selector: {number: {min: -200, max: 2000}}}
+odczytaj_rejestry:
+  name: Odczyt rejestrów C14 (test)
+  fields:
+    rejestry: {name: "Rejestry (do 6, po przecinku)", example: "141,142,143,144,145,146", selector: {text: {}}}
